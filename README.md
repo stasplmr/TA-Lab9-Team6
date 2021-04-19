@@ -16,39 +16,39 @@ gifts.add(new Gift(5, 5000));
 
 ## OUTPUT
      TASK - 1 - Dynamic Programming    
-Minimum amount of bills: 11
-Total sum: 4170
-===== LIST OF GIFTS: =====
-Gift {quality=5, price=2670}
-Gift {quality=6, price=1500}
+Minimum amount of bills: 11  
+Total sum: 4170  
+===== LIST OF GIFTS: =====  
+Gift {quality=5, price=2670}  
+Gift {quality=6, price=1500}  
 
      TASK - 2 - Dynamic Programming    
-Maximum amount of gifts: 1
-Total sum: 1234
-===== List of gifts: =====
-Gift {quality=7, price=1234}
+Maximum amount of gifts: 1  
+Total sum: 1234  
+===== List of gifts: =====  
+Gift {quality=7, price=1234}  
 
      TASK - 3 - Dynamic Programming    
-Minimum sum: 344
-===== List of gifts: =====
-Gift {quality=9, price=333}
-Gift {quality=10, price=11}
+Minimum sum: 344  
+===== List of gifts: =====  
+Gift {quality=9, price=333}  
+Gift {quality=10, price=11}  
 
      TASK - 1 - Greedy Algorithm    
-Minimum amount of bills: 11
-Total sum: 4170
-===== LIST OF GIFTS: =====
-Gift {quality=6, price=1500}
-Gift {quality=5, price=2670}
+Minimum amount of bills: 11  
+Total sum: 4170  
+===== LIST OF GIFTS: =====  
+Gift {quality=6, price=1500}  
+Gift {quality=5, price=2670}  
 
      TASK - 2 - Greedy Algorithm    
-Maximum amount of gifts: 1
-Total sum: 1234
-===== List of gifts: =====
-Gift {quality=7, price=1234}
+Maximum amount of gifts: 1  
+Total sum: 1234  
+===== List of gifts: =====  
+Gift {quality=7, price=1234}  
 
      TASK - 3 - Greedy Algorithm    
-Minimum sum: 344
-===== List of gifts: =====
-Gift {quality=10, price=11}
-Gift {quality=9, price=333}
+Minimum sum: 344  
+===== List of gifts: =====  
+Gift {quality=10, price=11}  
+Gift {quality=9, price=333} 
