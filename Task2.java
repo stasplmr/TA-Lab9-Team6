@@ -10,7 +10,11 @@ public class Task2 implements DynamicProgramming {
 
     public Task2(ArrayList<Gift> gifts, int amount) {
         this.gifts = (ArrayList<Gift>) gifts.clone();
-        this.amount = amount;
+        if (amount >= 100 & amount < 50000) {
+            this.amount = amount;
+        } else {
+            throw new IllegalArgumentException("100 ≤ Amount < 50000");
+        }
     }
 
     private int getSum(ArrayList<Gift> items) {
@@ -43,7 +47,7 @@ public class Task2 implements DynamicProgramming {
             check(items);
         }
         for (int i = 0; i < items.size(); i++) {
-            ArrayList<Gift> newList = new ArrayList<Gift>(items);
+            ArrayList<Gift> newList = new ArrayList<>(items);
             newList.remove(i);
             solution(newList);
         }

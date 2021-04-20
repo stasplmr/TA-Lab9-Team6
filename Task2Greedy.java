@@ -11,7 +11,11 @@ public class Task2Greedy implements GreedyAlgorithm {
 
     public Task2Greedy(ArrayList<Gift> gifts, int amount) {
         this.gifts = (ArrayList<Gift>) gifts.clone();
-        this.amount = amount;
+        if (amount >= 100 & amount < 50000) {
+            this.amount = amount;
+        } else {
+            throw new IllegalArgumentException("100 ≤ Amount < 50000");
+        }
     }
     private int getSum(ArrayList<Gift> items) {
         int sum = 0;
